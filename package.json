@@ -1,0 +1,39 @@
+{
+  "name": "kronos-create",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "kronos-create": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "start": "node dist/index.js",
+    "link-cli": "pnpm unlink --global kronos-create || true && pnpm link --global",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@segment/analytics-node": "^2.2.1",
+    "@types/degit": "^2.8.6",
+    "chalk": "^5.4.1",
+    "commander": "12.0.0",
+    "degit": "^2.8.4",
+    "dotenv": "^16.5.0",
+    "fs": "0.0.1-security",
+    "inquirer": "9.2.15",
+    "memfs": "^4.9.3",
+    "ora": "^8.2.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "9.0.7",
+    "@types/node": "20.11.25",
+    "typescript": "5.4.2",
+    "vitest": "^1.5.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0"
+}
