@@ -32,7 +32,17 @@
     "typescript": "5.4.2",
     "vitest": "^1.5.0"
   },
-  "keywords": [],
+  "keywords": [
+    "solana",
+    "web3",
+    "nextjs",
+    "@solana/web3.js",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kronos-Guild/kronos-create.git"
+  },
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.11.0"
